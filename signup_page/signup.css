@@ -1,0 +1,59 @@
+#nav{
+    width: 96%;
+    display: flex;
+    border: 1px solid red;
+    
+}
+#nav>div:nth-child(1){
+   border: 1px solid green;
+   width: 80%;
+   padding-top: 10px;
+   padding-left: 20px;
+}
+   #nav>div:nth-child(2){
+ color: grey;
+   }
+
+   #nav>div:nth-child(2) span{
+ color: rgb(26, 96, 226);
+   }
+
+   #left{
+    border: 1px solid green;
+    margin-top: 170px;
+    width: 18%;
+    margin-left: 50px;
+    position: fixed;
+   }
+
+   #left h3{
+    margin-left: 20px;
+    font-size: 20px;
+   }
+#left img{
+    padding-left: 45px;
+}
+
+
+   #left ul>li{
+    color: grey;
+    line-height: 20px;
+   }
+
+   #right{
+    border: 1px solid blue;
+    height: 1000px;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+   }
+   #Lpage{
+    border: 1px solid green;
+    display: flex;
+   }
+  
+   #right form>input{
+ width: 100%;
+ 
+
+   }
