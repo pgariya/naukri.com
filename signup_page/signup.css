@@ -1,11 +1,11 @@
 #nav{
     width: 96%;
     display: flex;
-    border: 1px solid red;
+ 
     
 }
 #nav>div:nth-child(1){
-   border: 1px solid green;
+  
    width: 80%;
    padding-top: 10px;
    padding-left: 20px;
@@ -19,7 +19,7 @@
    }
 
    #left{
-    border: 1px solid green;
+   
     margin-top: 170px;
     width: 18%;
     margin-left: 50px;
@@ -41,19 +41,89 @@
    }
 
    #right{
-    border: 1px solid blue;
-    height: 1000px;
+   
+    height: 800px;
     margin-left: 400px;
-    margin-top: 100px;
+    margin-top: 80px;
+    width: 600px;
     
    }
+   #right>h1{
+    padding-bottom: 30px;
+   }
    #Lpage{
-    border: 1px solid green;
     display: flex;
    }
-  
+
+  #right>form p{
+    margin-bottom: -0.2px;
+    font-size: 15px;
+    font-weight: bold;
+  }
    #right form>input{
- width: 100%;
- 
+ width: 500px;
+padding: 15px 0px;
+font-size: 18px;
+margin-bottom: 10px;
+padding-left: 20px;
+border-radius: 10px;
+color: grey;
+   }
+   form #exp{
+    display: flex;
+    width: 560px;
 
    }
+   form #exp>div{
+   border: 1px solid blue;
+    margin-right: 30px;
+    border-radius: 10px;
+   }
+   form #exp>div>h3{
+    color: rgb(24, 93, 212);
+    text-align: center;
+   }
+   form #exp>div>p{
+    color: grey;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 14px;
+    
+   }
+   #exp>div>input{
+ margin-left: 220px;
+ border-radius: 50%;
+ color: blue;
+
+   }
+   #watsup{
+   
+    height: 50px;
+    margin-top: 10px;
+   }
+   #watsup p{
+    display: inline;
+
+   }
+   #watsup img{
+    padding-top: 10px;
+    height: 20px;
+   }
+form>h6{
+ font-size: 13px;
+  font-weight: none;
+  color: grey;
+}
+form>h6>span{
+  color: rgb(20, 154, 208);
+}
+
+form #sub>input{
+  background-color: rgb(66, 118, 239);
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 50px;
+}
