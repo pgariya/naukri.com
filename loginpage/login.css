@@ -1,0 +1,97 @@
+#log{
+    border: 1px solid grey;
+    width: 40%;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 80px;
+    display: transparent;
+}
+#top{
+    margin: 40px 0px;
+}
+
+#top>h2 , #top>p{
+    display: inline;
+} 
+#top>p{
+    color: rgb(26, 170, 218);
+    
+}
+#top>h2{
+   
+    margin: 0px 250px 40px 40px;
+}
+
+#log>h5{
+ padding-left: 30px;
+ margin-bottom: 5px;
+ margin-top: 50px;
+}
+
+#log>p{
+ margin-left: 350px;
+ margin-top: 10px;
+ color: rgb(16, 112, 237);
+
+}
+
+#log>input{
+margin-left: 30px;
+ width: 400px;
+ font-size: 15px;
+ color: grey;
+ padding: 10px 20px;
+}
+
+
+#log button{
+    width: 450px;
+    margin-top: 40px;
+    padding: 10px 0px;
+    margin-left: 30px;
+    font-size: 15px;
+    background-color: rgb(63, 119, 231);
+    color: white;
+    margin-top: 15px;
+}
+#log>div:last-child{
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    
+}
+
+
+#log>div:last-child>div>img{
+    width: 18%;
+  margin-left: 50px;
+    margin-top: 1px;
+
+}
+#log>div:last-child>div{
+    margin-top: 5px;
+}
+#log>div:last-child>div+div{
+    margin-top: -2px;
+}
+#log>div:last-child{
+    display: flex;
+}
+#log>div:last-child>div>p{
+    margin-left: -200px;
+    color: grey;
+    
+    
+}
+#log>div:last-child>span{
+  
+  text-align: center;
+  font-size: 18px;
+   
+}
+
+
