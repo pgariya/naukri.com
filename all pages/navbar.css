@@ -19,7 +19,6 @@
  padding: 10px;
  border-radius: 5px;
  text-decoration: underline;
-
 }
 
 .submenu{
@@ -35,23 +34,23 @@
     margin-top: 10px;
     z-index: 2;
 } 
+
 #nav>div:nth-child(2)>div:hover>.submenu ul{
-    
     padding: 20px;
     margin: 10px;
 }
+
 #nav>div:nth-child(2)>div:hover>.submenu ul li{
     text-decoration: none;
     margin: 12px;
     font-size: 16px;
-    color: transparent;
-    
+    color: transparent;  
 }
+
 #nav>div:nth-child(2)>div:hover>.submenu ul li a{
     text-decoration: none;
     color: gray;
 }
-
 
 
 #nav>div:nth-child(1){
@@ -369,6 +368,8 @@ padding-top: 10px;
     /* border: 1px solid grey; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #new_job>div>p{
     display: inline;
@@ -389,6 +390,8 @@ padding-top: 10px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 padding-left: 20px;
 margin-top: 15px;
+padding-top: 10px ;
+padding-bottom: 20px;
     
 }
 #job_alert>div>h5{
@@ -437,6 +440,8 @@ margin-top: 15px;
     /* border: 1px solid grey; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 #requi>hr{
     width: 90%;
@@ -540,6 +545,7 @@ margin-top: 15px;
     display: flex;
     border-radius: 1px solid green;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    
 }
 #bg_bottom>div{
   margin-bottom: 20px;
@@ -581,6 +587,7 @@ margin-top: 15px;
     /* border: 1px solid grey; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-top: 20px;  
+    padding-bottom: 20px;
 }
 
 
@@ -606,6 +613,7 @@ margin-top: 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 20px;
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 #ques span{
     color: rgb(30, 124, 219);
@@ -616,7 +624,7 @@ margin-top: 15px;
 
 #footer{
     background-color: rgb(60, 60, 60);
-    margin-top: -150px;
+    margin-top: 20px;
     padding-top: 30px;
     display: flex;
     padding-bottom: 50px;
@@ -646,4 +654,34 @@ margin-top: 15px;
 }
 #social>div{
   width: 80%;
+}
+
+#footer>div>h3:hover , #footer>div>p:hover{
+    color: rgb(21, 161, 248);
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(238, 244, 245);
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown a:hover{
+    background-color: rgb(94, 196, 236);
+}
+
+#naukri:hover .dropdown{
+    display: block;
+    display: grid;
+    margin-top: 2px;
+}
+
+.dropdown a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+    padding: 2px 10px 0px 15px;
 }
