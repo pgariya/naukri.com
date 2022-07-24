@@ -1,0 +1,132 @@
+#nav{
+    width: 96%;
+    display: flex;
+ 
+    
+}
+#nav>div:nth-child(1){
+  
+   width: 80%;
+   padding-top: 10px;
+   padding-left: 20px;
+}
+   #nav>div:nth-child(2){
+ color: grey;
+   }
+
+   #nav>div:nth-child(2) span{
+ color: rgb(26, 96, 226);
+   }
+
+   #left{
+   
+    margin-top: 170px;
+    width: 18%;
+    margin-left: 50px;
+    position: fixed;
+   }
+
+   #left h3{
+    margin-left: 20px;
+    font-size: 20px;
+   }
+#left img{
+    padding-left: 45px;
+}
+
+
+   #left ul>li{
+    color: grey;
+    line-height: 20px;
+   }
+
+   #right{
+   
+    height: 800px;
+    margin-left: 400px;
+    margin-top: 80px;
+    width: 600px;
+    
+   }
+   #right>h1{
+    padding-bottom: 30px;
+   }
+   #Lpage{
+    display: flex;
+   }
+
+  #right>form p{
+   
+    font-size: 15px;
+    font-weight: bold;
+  }
+   #right form>input{
+ width: 500px;
+padding: 15px 0px;
+font-size: 18px;
+margin-bottom: 10px;
+padding-left: 20px;
+border-radius: 10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+color: grey;
+   }
+   form #exp{
+    display: flex;
+    width: 560px;
+
+   }
+   form #exp>div{
+   /* border: 1px solid blue; */
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 30px;
+    border-radius: 10px;
+   }
+   form #exp>div>h3{
+    color: rgb(24, 93, 212);
+    text-align: center;
+   }
+   form #exp>div>p{
+    color: grey;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 14px;
+    
+   }
+   #exp>div>input{
+ margin-left: 220px;
+ border-radius: 50%;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ color: blue;
+
+   }
+   #watsup{
+   
+    height: 50px;
+    margin-top: 10px;
+   }
+   #watsup p{
+    display: inline;
+
+   }
+   #watsup img{
+    padding-top: 10px;
+    height: 20px;
+   }
+form>h6{
+ font-size: 13px;
+  font-weight: none;
+  color: grey;
+}
+form>h6>span{
+  color: rgb(20, 154, 208);
+}
+
+form #sub>input{
+  background-color: rgb(66, 118, 239);
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 50px;
+}
